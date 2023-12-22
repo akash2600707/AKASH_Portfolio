@@ -1,4 +1,3 @@
-//projects start
 const projects = [
   {
     name: "portfolio_website",
@@ -28,5 +27,4 @@ const projects = [
   },
 ];
 
-//projects end
 export default projects;

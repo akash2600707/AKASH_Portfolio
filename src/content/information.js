@@ -1,5 +1,3 @@
-//personal information start
-
 const userData = {
   firstName: "<AKASH",
   lastName: "RAMESH/>",
