@@ -16,7 +16,7 @@ This portfolio site serves as a central hub for anyone interested in learning mo
 
 - **Home Page:** Introduction and a brief overview.
 - **Projects:** Showcase of my web development projects.
-- **Resume:** Detailed information about my education, experience, and skills.
+- **Skills:** showcase of my skills which i'm mastered
 - **Contact:** Ways to get in touch with me.
 
 ## Installation
