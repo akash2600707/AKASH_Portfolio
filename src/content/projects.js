@@ -5,7 +5,7 @@ const projects = [
       "My portfolio showcases my skills and projects in a sleek and interactive format. Explore my work, learn about me, and let's connect!",
     stack: ["React", "NodeJS"],
     sourceCode: "https://github.com/randilt/booking.com-clone-nextjs14",
-    img: "https://i.ibb.co/mC65Dh4/siteimg.jpg",
+    img: "https://i.ibb.co/PtRMS9N/portfolio.jpg",
     preview: "https://akashr.me/",
   },
   {
