@@ -9,6 +9,14 @@ const projects = [
     preview: "https://akashr.me/",
   },
   {
+    name: "Blog_App",
+    description:"Developed a robust blog application using Node.js, Express, and MongoDB, featuring comprehensive CRUD operations and secure authentication.",
+    stack: ["NodeJS", "Express","MongoDB],
+    sourceCode: "https://github.com/akash2600707/Blog-App",
+    img: "https://i.ibb.co/1nY89tW/Blog-App.png",
+    preview: "http://blogapplication.ap-1.evennode.com",
+  },
+  {
     name: "To-Do_App",
     description:
       "A minimalist To-Do App to help you stay organized and focused. Manage tasks, set priorities, and enhance productivity with a clean and intuitive interface.",
