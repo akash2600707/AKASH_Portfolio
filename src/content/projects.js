@@ -11,7 +11,7 @@ const projects = [
   {
     name: "Blog_App",
     description:"Developed a robust blog application using Node.js, Express, and MongoDB, featuring comprehensive CRUD operations and secure authentication.",
-    stack: ["NodeJS", "Express","MongoDB],
+    stack: ["NodeJS", "Express","MongoDB"],
     sourceCode: "https://github.com/akash2600707/Blog-App",
     img: "https://i.ibb.co/1nY89tW/Blog-App.png",
     preview: "http://blogapplication.ap-1.evennode.com",
@@ -28,7 +28,7 @@ const projects = [
   {
     name: "weather_app",
     description:"Stay informed about the weather with this sleek Weather App. Get real-time updates, forecasts, and interactive features to plan your day with ease.",
-    stack: ["React", "NodeJS", "Express"],
+    stack: ["React", "NodeJS", "Express","MongoDB"],
     sourceCode: "https://github.com/akash2600707/Weather-App",
     img: "https://i.ibb.co/nsmBgFh/weather-app.jpg",
     preview: "https://weather-app-6qxa.onrender.com",
