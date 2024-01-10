@@ -12,6 +12,7 @@ const skills = [
   "github.svg",
   "mongodb.svg",
   "tailwind.svg",
+  "vite.svg",  
   
 ]; 
 export default skills;
