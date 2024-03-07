@@ -5,7 +5,7 @@ const socials = [
   },
   {
     icon: "linkedin.svg",
-    url: "www.linkedin.com/in/akashr2607",
+    url: "www.linkedin.com/in/AkashR26",
   },
 ];
 
