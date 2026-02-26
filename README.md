@@ -1,39 +1,79 @@
-Akash Ramesh's Portfolio
+# ⚡ Akash Ramesh — Personal Portfolio
 
-## Introduction
+> **Live Site:** [akashr.is-a.dev](https://akashr.is-a.dev)
 
-Welcome to my portfolio repository! This is where I showcase my skills, projects, and achievements as a web developer. I'm Akash Ramesh, a passionate IT professional from Chennai, India, with a focus on web development. I am currently pursuing my Master's in Computer Applications, and I have a Bachelor's in Computer Applications.
+---
 
-## About Me
+## 🧑‍💻 About
 
-- 🚀 Actively seeking opportunities in web development.
-- 🌐 Constant learner, enthusiastic about new technologies and programming languages.
-- 🔬 A love for science and a vision to achieve success comparable to Elon Musk.
+A futuristic, multi-profile personal portfolio built with pure HTML, CSS, and JavaScript — no frameworks, no build tools, just one powerful `index.html`.
 
-This portfolio site serves as a central hub for anyone interested in learning more about me, my education, skills, and the projects I've worked on. It's designed to be user-friendly and visually appealing.
+Features **4 interactive profiles** that showcase my different professional identities:
 
-## Features
+| # | Profile | Role |
+|---|---------|------|
+| 01 | 🖨️ **3D Printing Specialist** | Additive Manufacturing · CAD · IoT · AI Integration |
+| 02 | 💻 **Desktop Support Engineer** | IT Infrastructure · Hardware · Network Diagnostics |
+| 03 | 👨‍💻 **Full Stack Developer** | MERN Stack · React · Node.js · MongoDB |
+| 04 | 🚀 **Co-Founder & E-commerce Specialist** | Shopify · Brand Strategy · D2C Growth · Analytics |
 
-- **Home Page:** Introduction and a brief overview.
-- **Projects:** Showcase of my web development projects.
-- **Skills:** showcase of my skills which i'm mastered
-- **Contact:** Ways to get in touch with me.
+---
 
-## Installation
+## ✨ Features
 
-1. Clone the repository: `git clone https://github.com/akash2600707/AKASH_Portfolio.git'
-2. Navigate to the project directory: `cd your-portfolio`
-3. npm run dev to start server
+- **Swipeable hero slider** — swipe, click arrows, or use keyboard to switch profiles
+- **Unique 3D avatars** — custom SVG characters per profile with floating animations
+- **Three.js particle background** — live interactive particle field
+- **Custom cursor** — glowing neon cursor with ring follower
+- **Animated skill bars** — triggered on scroll
+- **3D tilt project cards** — mouse-reactive perspective effect
+- **Scroll reveal animations** — staggered entrance for all sections
+- **Scanline effect** — cyberpunk aesthetic touch
+- **Fully responsive** — desktop + mobile optimized
 
-## Usage
+---
 
-Explore the various sections of the site to learn more about me, view my projects, and find ways to connect.
+## 🛠️ Tech Stack
 
+```
+HTML5  ·  CSS3  ·  Vanilla JavaScript  ·  Three.js (r128)
+```
 
-## Contact
+No npm. No build step. No dependencies to install. Just open `index.html`.
 
-- **LinkedIn:** [linkedin.com/in/akashr2607](https://linkedin.com/in/akashr2607)
-- **Email:** akashramesh2607@gmail.com
-- **Phone:** +917200627262
+---
 
-Feel free to explore my portfolio and reach out for any collaboration or job opportunities!
+## 📁 Structure
+
+```
+AKASH_Portfolio/
+├── index.html        # Entire portfolio — all-in-one
+├── README.md         # This file
+└── .gitignore
+```
+
+---
+
+## 🚀 Deployment
+
+Hosted on **GitHub Pages** with a custom domain via [is-a.dev](https://is-a.dev).
+
+To run locally — just open `index.html` in any browser. That's it.
+
+---
+
+## 📬 Contact
+
+| Platform | Link |
+|----------|------|
+| 🌐 Portfolio | [akashr.is-a.dev](https://akashr.is-a.dev) |
+| 💼 LinkedIn | [linkedin.com/in/akashr26](https://linkedin.com/in/akashr26) |
+| 🐙 GitHub | [github.com/akash2600707](https://github.com/akash2600707) |
+| 📧 Email | [akash2600707@gmail.com](mailto:akash2600707@gmail.com) |
+| 📞 Phone | +91 72006 27262 |
+
+---
+
+<p align="center">
+  Designed & Engineered by <strong>Akash Ramesh</strong> · Chennai, India 💜
+</p>
