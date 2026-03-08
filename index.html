@@ -1437,7 +1437,7 @@ document.querySelectorAll('.rv').forEach(el=>observer.observe(el));
   SETUP: Go to https://formspree.io → New Form → copy your form ID
   Replace "YOUR_FORM_ID" below with it (e.g. "xpwzgkla")
 */
-const FORMSPREE_ID = 'YOUR_FORM_ID';
+const FORMSPREE_ID = 'xpqywnow';
 
 async function handleContact(e) {
   e.preventDefault();
@@ -1457,8 +1457,8 @@ async function handleContact(e) {
   if (!name) { showErr('Please enter your name.'); return; }
   if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showErr('Please enter a valid email.'); return; }
   if (!message) { showErr('Please write a message.'); return; }
-  if (FORMSPREE_ID === 'YOUR_FORM_ID') {
-    showErr('Form not configured yet. Please email directly: akash2600707@gmail.com');
+  if (FORMSPREE_ID === 'FORMSPREE_ID') {
+    showErr('Form not configured yet. Please email directly: akashramesh2607@gmail.com');
     return;
   }
 
@@ -1468,7 +1468,7 @@ async function handleContact(e) {
   btnIcon.innerHTML = '<circle cx="8" cy="8" r="5" stroke="currentColor" stroke-width="1.5" stroke-dasharray="31" stroke-dashoffset="31" style="animation:spinDash 1s linear infinite"><animateTransform attributeName="transform" type="rotate" from="0 8 8" to="360 8 8" dur=".8s" repeatCount="indefinite"/></circle>';
 
   try {
-    const res = await fetch(`https://formspree.io/f/${xpqywnow}`, {
+    const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
       body: JSON.stringify({ name, email, message })
