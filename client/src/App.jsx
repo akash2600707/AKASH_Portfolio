@@ -765,7 +765,7 @@ function Contact() {
               <motion.button
                 type="submit"
                 disabled={status === 'loading'}
-                style={{ ...S.btn, borderColor: 'var(--cyan)', color: status === 'success' ? 'var(--green)' : 'var(--cyan)', width: '100%', justifyContent: 'center', cursor: status === 'loading' ? 'wait' : 'pointer', borderColor: status === 'success' ? 'var(--green)' : 'var(--cyan)' }}
+                style={{ ...S.btn, borderColor: status === 'success' ? 'var(--green)' : 'var(--cyan)', color: status === 'success' ? 'var(--green)' : 'var(--cyan)', width: '100%', justifyContent: 'center', cursor: status === 'loading' ? 'wait' : 'pointer' }}
                 whileHover={{ backgroundColor: status !== 'loading' ? 'var(--cyan)' : undefined, color: '#040810' }}
               >
                 <span>{status === 'loading' ? 'Sending...' : status === 'success' ? 'Message Sent ✓' : 'Send Message'}</span>
