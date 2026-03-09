@@ -1,0 +1,50 @@
+/* ═══════════════════════════════════════════
+   GLOBALS
+═══════════════════════════════════════════ */
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --bg:      #040810;
+  --bg2:     #060c18;
+  --panel:   rgba(255,255,255,.025);
+  --border:  rgba(255,255,255,.065);
+  --text:    #d8e6f7;
+  --muted:   rgba(216,230,247,.45);
+  --dim:     rgba(216,230,247,.22);
+  --cyan:    #00d4ff;
+  --amber:   #ffab40;
+  --green:   #00e5a0;
+  --rose:    #ff4d6d;
+  --font:    'Syne', sans-serif;
+  --mono:    'IBM Plex Mono', monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  overflow-x: hidden;
+  cursor: none;
+}
+
+/* scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: rgba(0,212,255,.3); border-radius: 2px; }
+
+/* grid overlay */
+body::before {
+  content: '';
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  background-image:
+    linear-gradient(rgba(0,212,255,.011) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,212,255,.011) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+a { color: inherit; }
+
+/* selection */
+::selection { background: rgba(0,212,255,.2); color: var(--cyan); }
